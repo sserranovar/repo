@@ -1,0 +1,55 @@
+ul{
+  list-style-type:none;
+  display:flex;
+  justify-content:space-around;
+  padding:15px;
+    background-color:lightgrey
+}
+.navimg{
+  width:35px;
+  height:35px
+}
+img{
+  max-width:200%;
+  max-height:100%;
+  object-fit:contain;
+  overflow:hidden;
+  object-fit:cover
+}
+/* main section */
+.main{width:100%;
+height:450px;background-color:grey}
+img{
+  width:100%;
+    height:100%;
+      object-fit:container;
+        overflow:hidden;
+}
+.mainimg{
+  width:100%;
+  height:100%;
+  margin: 0 auto;
+  object-fit:cover
+}
+/* main section */
+/* row section */
+.row{
+  display:flex;
+  justify-content:space-between;
+}
+.card{
+  width:25%;
+  height:200px;
+  background-color:grey;
+  margin:10px;
+  display:flex;
+  flex-direction:column;
+  display:flex;flex-direction:column;
+  overflow:hidden;
+}
+.card1{
+  min-width:200px;
+  min-height:100px;
+  
+}
+/* row section */
